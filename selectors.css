@@ -10,7 +10,7 @@
   background-color: orange;
 }
 
-.to-be-learned h4 > code {
+.to-be-learned code {
   background-color: green;
 }
 #special1 ~ li code {
