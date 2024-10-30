@@ -17,7 +17,7 @@ a:active,
   border: 3px solid red;
 }
 .some-button:disabled {
-  border: 3px dashed grey;
+  border: 2px dashed grey;
 }
 .some-button:hover:enabled {
   color: white;
