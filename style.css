@@ -1,20 +1,17 @@
-input[type="checkbox"]:checked {
+input:checked {
   margin-left: 50px; /* Левый отступ */
-  display: inline-block; /* Убедитесь, что чекбокс не "inline" */
+  /* Убедитесь, что чекбокс не "inline" */
 }
 
 label {
-  color: green;
   font-size: 100px;
+  text-transform: uppercase;
 }
 
 #special:first-letter {
   font-size: 100px;
 }
 
-* {
-  text-transform: uppercase;
-}
 h1:hover {
   color: blue;
 }
