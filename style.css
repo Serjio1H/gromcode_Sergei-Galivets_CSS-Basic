@@ -2,8 +2,8 @@
   font-size: 24px;
 }
 .anchor:link {
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
 }
 
 .anchor:visited {
@@ -19,7 +19,7 @@
   border: 3px dashed grey;
 }
 .some-button:hover:enabled {
-  color: #fff;
+  color: white;
   background-color: gray;
 }
 
