@@ -1,17 +1,18 @@
-.anchor:hover {
-  font-size: 24px;
-}
-.anchor:link {
+a:link {
   background-color: black;
   color: white;
 }
 
-.anchor:visited {
+a:hover {
+  font-size: 24px;
+}
+
+a:visited {
   background-color: orange;
   color: green;
 }
 
-.anchor:active,
+a:active,
 .some-button:active {
   border: 3px solid red;
 }
