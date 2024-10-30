@@ -1,5 +1,6 @@
 input[type="checkbox"]:checked {
-  margin-left: 50px;
+  margin-left: 50px; /* Левый отступ */
+  display: inline-block; /* Убедитесь, что чекбокс не "inline" */
 }
 
 label {
@@ -14,8 +15,7 @@ label {
 * {
   text-transform: uppercase;
 }
-
-#special:hover {
+h1:hover {
   color: blue;
 }
 
