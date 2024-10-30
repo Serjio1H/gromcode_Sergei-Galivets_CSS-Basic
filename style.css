@@ -1,21 +1,24 @@
-input:checked {
+input[type="checkbox"]:checked {
   margin-left: 50px;
+}
+
+label {
+  color: green;
+  font-size: 100px;
 }
 
 #special:first-letter {
   font-size: 100px;
 }
-label {
-  color: green;
-  font-size: 100px;
-}
+
 * {
   text-transform: uppercase;
 }
+
 #special:hover {
   color: blue;
 }
 
 a:visited {
-  color: grey;
+  color: gray;
 }
