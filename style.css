@@ -1,12 +1,10 @@
-input[type="checkbox"]:checked {
+input[type="checkbox"][checked] {
   margin-left: 50px;
 }
 
 label {
-  font-size: 100px;
   text-transform: uppercase;
 }
-
 #special:first-letter {
   font-size: 100px;
   color: green;
