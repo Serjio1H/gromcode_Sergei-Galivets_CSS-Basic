@@ -1,9 +1,13 @@
+* {
+  background-color: #bdc3c7;
+}
+
 a {
   background-color: white;
 }
 
 h1 {
-  color: blue;
+  color: #9b59b6;
 }
 
 h2 {
@@ -23,7 +27,7 @@ input {
 }
 
 .hello {
-  background-color: gray;
+  background-color: white;
 }
 
 #special {
@@ -35,18 +39,18 @@ div a {
 }
 
 input[type="text"] {
-  border: 5px solid white;
+  background-color: grey;
 }
 
 div:nth-of-type(3) p {
-  background-color: #bdc3c7;
+  background-color: yellow;
 }
 
 div:nth-of-type(3) em {
-  background-color: #9b59b6;
+  color: white;
+  font-size: 20px;
 }
 
 div:nth-of-type(3) p:nth-of-type(2) {
-  color: white;
-  font-size: 20px;
+  border: 5px solid white;
 }
