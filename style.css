@@ -1,6 +1,5 @@
-input:checked {
-  margin-left: 50px; /* Левый отступ */
-  /* Убедитесь, что чекбокс не "inline" */
+input[type="checkbox"]:checked {
+  margin-left: 50px;
 }
 
 label {
