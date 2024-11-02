@@ -6,34 +6,41 @@ body {
   margin: 50px;
 }
 
-.rectangle1,
-.rectangle2,
-.rectangle3,
-.rectangle4 {
-  border: 2px solid black;
-  box-sizing: border-box;
+body {
+  margin: 0;
+}
+
+.wrapper_rectangle {
+  margin: 50px;
 }
 
 .rectangle1 {
+  border: 2px solid black;
   background-color: blue;
   height: 550px;
   padding: 50px;
+  box-sizing: border-box;
 }
 
 .rectangle2 {
+  border: 2px solid black;
   background-color: yellow;
   height: 100%;
   padding: 50px;
+  box-sizing: border-box;
 }
 
 .rectangle3 {
+  border: 2px solid black;
   background-color: green;
   height: 100%;
   padding: 50px;
+  box-sizing: border-box;
 }
 
 .rectangle4 {
+  border: 2px solid black;
   background-color: pink;
   height: 100%;
-  padding: 50px;
+  box-sizing: border-box;
 }
