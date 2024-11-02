@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .rectangle {
   width: 1280px;
   height: 50px;
@@ -6,5 +9,5 @@
 }
 
 .text {
-  margin-left: 50px;
+  padding-left: 50px;
 }
