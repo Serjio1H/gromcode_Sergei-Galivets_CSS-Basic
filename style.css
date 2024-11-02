@@ -1,56 +1,14 @@
-body {
-  background-color: #bdc3c7;
+.rectangle {
+  width: 512px;
+  height: 128px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
 }
-
-h1 {
-  color: #9b59b6;
+.rectangle1 {
+  background-color: aquamarine;
 }
-
-h2 {
-  color: orange;
-}
-
-li {
-  color: blue;
-}
-
-div > p {
-  font-size: 25px;
-}
-p {
-  background-color: yellow;
-}
-
-input {
-  border: 3px solid red;
-}
-
-.hello {
-  background-color: white;
-}
-
-#special {
-  border: 2px solid blue;
-}
-
-div a {
-  background-color: white;
-}
-
-input[type="text"] {
-  background: grey;
-}
-
-div:nth-of-type(3) p {
-  background-color: yellow;
-}
-
-div:nth-of-type(3) em {
-  color: white;
-  font-size: 20px;
-  background-color: yellow;
-}
-
-div:nth-of-type(3) p:nth-of-type(2) {
-  border: 5px solid white;
+.rectangle2 {
+  background-color: azure;
+  box-sizing: border-box;
 }
