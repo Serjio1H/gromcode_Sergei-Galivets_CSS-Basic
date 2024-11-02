@@ -1,35 +1,33 @@
-* {
+body {
+  margin: 0;
+}
+
+.wrapper_rectangle {
+  margin: 50px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: blue;
+}
+
+.rectangle1,
+.rectangle2,
+.rectangle3 {
+  border: 2px solid black;
   box-sizing: border-box;
 }
-.rectangle {
-  width: 100px;
-  height: 50px;
-  background-color: forestgreen;
-  border-radius: 16px;
-  margin: 50px;
+
+.rectangle1 {
+  background-color: yellow;
+  padding: 50px;
 }
 
-.oval {
-  width: 100px;
-  height: 50px;
-  background-color: darkmagenta;
-  border-radius: 50%;
-  margin: 50px;
+.rectangle2 {
+  background-color: green;
+  padding: 50px;
 }
 
-.circle {
-  width: 100px;
-  height: 100px;
-  background-color: aquamarine;
-  border-radius: 50%;
-  margin: 50px;
-}
-
-.triangle {
-  width: 100px;
-  height: 100px;
-  border: 50px solid transparent;
-  border-top-color: brown;
-
-  margin: 50px;
+.rectangle3 {
+  background-color: pink;
+  padding: 50px;
 }
