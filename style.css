@@ -1,30 +1,28 @@
+.container {
+  width: 100%;
+}
+
 .block {
+  float: left;
   height: 200px;
   width: 20%;
-  position: absolute;
 }
 .block_red {
   background-color: red;
-  top: 0px;
-  left: 0px;
 }
 .block_green {
   background-color: green;
-  top: 0px;
-  left: 307px;
 }
 .block_blue {
   background-color: blue;
-  top: 0px;
-  left: 614px;
 }
 .block_yellow {
   background-color: yellow;
-  top: 0px;
-  left: 922px;
 }
 .block_black {
   background-color: black;
-  top: 0px;
-  left: 1230px;
+}
+
+.clearfix {
+  clear: both;
 }
