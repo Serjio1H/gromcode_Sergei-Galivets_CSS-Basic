@@ -1,35 +1,30 @@
-.block_red,
-.block_green,
-.block_yellow,
-.block_black,
-.block_blue {
+.block {
   height: 200px;
   width: 20%;
+  position: absolute;
 }
 .block_red {
   background-color: red;
+  top: 0px;
+  left: 0px;
 }
 .block_green {
   background-color: green;
-  position: relative;
-  top: -200px;
+  top: 0px;
   left: 304px;
 }
 .block_blue {
   background-color: blue;
-  position: relative;
-  top: -400px;
+  top: 0px;
   left: 608px;
 }
 .block_yellow {
   background-color: yellow;
-  position: relative;
-  top: -600px;
+  top: 0px;
   left: 911px;
 }
 .block_black {
   background-color: black;
-  position: relative;
-  top: -800px;
+  top: 0px;
   left: 1214px;
 }
