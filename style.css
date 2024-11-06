@@ -26,6 +26,10 @@
   margin-left: 16px;
   color: white;
 }
+
+.nav-item:first-child {
+  margin-left: 16px;
+}
 .content {
   height: 5000px;
   background-color: beige;
@@ -38,7 +42,7 @@
   background-color: aquamarine;
   position: absolute;
   left: calc(50% - 100px);
-  top: 100px;
+  top: 80px;
 }
 .ear {
   background-color: brown;
