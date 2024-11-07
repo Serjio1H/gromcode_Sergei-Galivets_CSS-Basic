@@ -1,74 +1,24 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .header {
-  background-color: darkturquoise;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  height: 40px;
-}
-.navigation {
-  height: 100%;
-}
-.nav-list {
-  margin: 0;
-  line-height: 40px;
-  list-style: none;
-}
-.nav-item {
-  float: left;
-  margin-left: 16px;
-  color: white;
+  background-color: yellow;
+  height: 50px;
 }
 
-.nav-list:first-child {
-  margin-left: 40px;
-}
 .content {
-  height: 5000px;
-  background-color: beige;
+  background-color: pink;
+  height: 500px;
+  float: left;
+  width: 80%;
 }
 
-.head {
-  width: 200px;
-  height: 200px;
-  background-color: aquamarine;
-  position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
-}
-.ear {
-  background-color: brown;
-  width: 40px;
-  height: 60px;
-  position: absolute;
-}
-.ear_left {
-  top: -60px;
-  left: -40px;
-}
-.ear_right {
-  top: -60px;
-  left: 200px;
-}
-
-.eye {
-  width: 30px;
-  height: 30px;
+.sidebar {
   background-color: gray;
-  border-radius: 50%;
-  position: absolute;
-}
-.eye_right {
-  top: 80px;
-  left: 40px;
+  height: 500px;
+  float: left;
+  width: 20%;
 }
 
-.eye_left {
-  top: 80px;
-  right: 40px;
+.footer {
+  background-color: green;
+  height: 50px;
+  clear: both;
 }
