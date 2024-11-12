@@ -9,11 +9,10 @@
   margin: 0;
   display: flex;
   list-style-type: none;
-  justify-content: start;
 }
 
 .navigation__item {
-  margin-right: 10px;
+  margin-left: 16px;
 }
 
 .page {
@@ -45,7 +44,8 @@
 }
 .title__news__item {
   list-style-type: none;
-  margin-bottom: 10px;
+  line-height: 40px;
+  margin-left: 16px;
 }
 
 .footer {
