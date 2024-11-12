@@ -39,8 +39,8 @@
   background-color: gray;
 }
 .title__news {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin: 16px;
 }
 .title__news__item {
   list-style-type: none;
