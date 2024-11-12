@@ -1,16 +1,50 @@
-.container {
+.header {
+  background-color: yellow;
+  height: 40px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-div.block {
-  background-color: coral;
-  margin: 8px;
+.navigation {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
 }
 
-.block {
-  height: 100px;
-  flex-shrink: 0;
-  width: 100px;
+.navigation__item {
+  margin-right: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
   flex-grow: 1;
+}
+
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.news {
+  width: 200px;
+  background-color: gray;
+}
+
+.footer {
+  background-color: green;
+  height: 40px;
+  display: flex;
+}
+
+.footer__text {
+  margin: auto;
 }
