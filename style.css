@@ -9,6 +9,7 @@
   margin: 0;
   display: flex;
   list-style-type: none;
+  justify-content: start;
 }
 
 .navigation__item {
@@ -37,6 +38,13 @@
 .news {
   width: 200px;
   background-color: gray;
+}
+.title__news {
+  display: flex;
+  justify-content: center;
+}
+.title__news__item {
+  list-style-type: none;
 }
 
 .footer {
