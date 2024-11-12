@@ -45,6 +45,7 @@
 }
 .title__news__item {
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .footer {
