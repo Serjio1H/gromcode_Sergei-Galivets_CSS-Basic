@@ -23,7 +23,7 @@
   border-radius: 4px;
   white-space: nowrap;
   z-index: 10;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .text:hover .tooltip {
