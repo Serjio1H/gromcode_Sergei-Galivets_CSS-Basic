@@ -20,15 +20,13 @@
   background-color: gray;
   color: white;
   padding: 8px;
-  visibility: hidden;
+  display: none;
   border-radius: 4px;
   margin-top: 8px;
   white-space: nowrap;
   z-index: 10;
-  opacity: 0;
 }
 
 .text:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
