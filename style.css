@@ -9,12 +9,12 @@
   flex-direction: column;
   position: relative;
   cursor: pointer;
-  margin-bottom: 40px;
 }
 
 .tooltip {
   position: absolute;
   top: 100%;
+  bottom: -40px;
   left: 0;
   background-color: gray;
   color: white;
