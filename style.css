@@ -1,34 +1,17 @@
-html {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
+.list {
+  line-height: 40px;
+  font-size: 1.5em;
+  list-style-type: none;
 }
 
-h1 {
-  word-spacing: 20px;
-  text-transform: uppercase;
-  text-align: center;
+.first {
+  text-decoration: red overline;
 }
 
-p {
-  line-height: 28px;
+.second {
+  text-decoration: line-through;
 }
 
-section {
-  margin: 32px;
-}
-
-em {
-  color: gray;
-}
-
-a {
-  text-decoration: none;
-}
-
-span {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  opacity: 0.8;
-  text-decoration: underline;
+.third {
+  text-decoration: green underline;
 }
