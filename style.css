@@ -8,6 +8,6 @@
   font-weight: 700;
   text-align: center;
   padding: 32px;
-  background-clip: border-box;
+  background-clip: content-box;
   background-size: cover;
 }
