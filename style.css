@@ -9,4 +9,5 @@
   text-align: center;
   padding: 32px;
   background-size: cover;
+  background-clip: border-box;
 }
