@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .mountains {
   height: 500px;
   width: 300px;
@@ -12,4 +8,6 @@
   font-weight: 700;
   text-align: center;
   padding: 32px;
+  background-clip: border-box;
+  background-size: cover;
 }
