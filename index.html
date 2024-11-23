@@ -10,34 +10,29 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .rectangle {
-        background-color: aqua;
-        width: 100px;
-        height: 100px;
-      }
-
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
-    </style>
   </head>
 
   <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык
-      описания внешнего вида документа, написанного с использованием языка
-      разметки.
-    </p>
+    <div class="image-container">
+      <img src="./img/big.jpeg" alt="Land with tree" />
+    </div>
+    <div class="gallery">
+      <figure class="card">
+        <img
+          class="opacity-filter"
+          src="./img/small.jpg"
+          alt="Opacity filter"
+        />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img class="blur-filter" src="./img/small.jpg" alt="Opacity filter" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img class="invert-filter" src="./img/small.jpg" alt="Opacity filter" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+    </div>
   </body>
 </html>

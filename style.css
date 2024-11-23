@@ -1,10 +1,36 @@
-div.rectangle {
-  background-color: blueviolet;
-  width: 100px;
-  height: 100px;
+* {
+  box-sizing: border-box;
 }
 
-.new.text::first-letter {
-  color: green;
-  font-size: 24px;
+.image-container img {
+  display: block;
+  margin: 50px auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.opacity-filter {
+  filter: opacity(50%);
+}
+
+.blur-filter {
+  filter: blur(4px);
+}
+
+.invert-filter {
+  filter: invert(100%);
+}
+
+.caption {
+  line-height: 30px;
+  text-align: center;
 }
