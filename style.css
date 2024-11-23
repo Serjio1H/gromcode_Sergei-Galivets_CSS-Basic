@@ -1,7 +1,38 @@
-iframe {
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
   margin: 0 auto;
-  margin-top: 100px;
+  text-align: center;
+}
+
+.image {
   display: block;
-  width: 500px;
-  height: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-button {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover-эффект */
+.image-button:hover {
+  opacity: 1;
 }
